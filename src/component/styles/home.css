@@ -53,9 +53,21 @@ html {
     .icon-menu img  {
         display: block;
         position: fixed;
-        top: 15px;
-        right: 15px;
+        top: 20px;
+        right: 35px;
         width: 50px;
-        background: rgba(126, 125, 125, 0.404);
+        background: rgba(107, 107, 107, 0.212);
+    }
+
+
+    .text-info h1 {
+        font-size: 27px;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 1px;
+    }
+    .text-info h3 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        margin: 55px 0;
     }
 }
