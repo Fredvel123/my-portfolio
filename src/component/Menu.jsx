@@ -28,8 +28,8 @@ function Menu() {
 
         <div className="menu-nav">
           <ul>
-            <a href="#!">Home</a>
-            <a href="#!">About me</a>
+            <a href="#home">Home</a>
+            <a href="#about">About me</a>
             <a href="#!">Portfolio</a>
             <a href="#!">Skills</a>
           </ul>

@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
+import About from './component/About';
 import BackgroundHome from './component/BackgroundHome';
 import Menu from './component/Menu';
-import Portofolio from './component/Portofolio';
 import './component/styles/home.css'
 
 function Home() {
@@ -10,7 +10,7 @@ function Home() {
       <Menu />
       <div className="background">
         <BackgroundHome />
-        <Portofolio />
+        <About />
       </div>
     </Fragment>
   );

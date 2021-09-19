@@ -1,6 +1,5 @@
 .banner {
-    background-image: url(../images/bkg3.jpg);
-    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.445), #0cafa28f), url('https://images.unsplash.com/photo-1540397106260-e24a507a08ea?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -35,19 +34,23 @@
     font-size: 25px;
     margin: 55px 0;
 }
-.text-info P {
-    background: rgb(6, 61, 163);
+.text-info a {
+    background: crimson;
     width: 150px;
     height: 65px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     transition: .2s;
 }
-.text-info p:hover {
-    background: crimson;
+.text-info a:hover {
     cursor: pointer;
+    background: rgb(6, 61, 163);
 }
 .icon-menu img  {
     display: none;

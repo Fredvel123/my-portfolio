@@ -4,6 +4,9 @@
     box-sizing: border-box;
     list-style: none;
 }
+html {
+    scroll-behavior: smooth;
+}
 .background {
     margin-left: 25%;
 }
@@ -15,10 +18,10 @@
     .menu {
         background: rgb(37, 37, 37);
         color: aliceblue;
-        width: 40%;
+        width: 50%;
         height: 100vh;
         display: grid;
-        grid-template-rows: 30% 55% 15%;   
+        grid-template-rows: 25% 60% 15%;   
         position: fixed;
         left: 0;
         top: 0;
@@ -42,11 +45,9 @@
     .menu .header h3{
         font-size: 10px;
     }
-
-
     .menu2 {
         transition: .1s;
-        transform: translateX(-100%);
+        transform: translateX(-200%);
     }
     /* ---- ICON REPONSIVE ------------- */
     .icon-menu img  {
