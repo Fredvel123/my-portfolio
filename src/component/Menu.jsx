@@ -5,7 +5,8 @@ import facebook from './icons/facebook.png';
 import github from './icons/github.png';
 import linkedin from './icons/linkedin.png';
 import profile from './images/profile.jpg';
-import icon from './icons/menu.png'
+import icon from './icons/menu.png';
+import iconX from './icons/x-menu.png';
 
 
 function Menu() {
@@ -18,12 +19,11 @@ function Menu() {
     <Fragment>
       <div className={open ? "menu2" : "menu"}>
         <div className="header">
-            <img src={profile}alt="" />
-            <div className="text">
-              <h1>Freddy Velarde</h1>
-              <h3>Front-End Developer</h3>
-            </div>
-          
+          <img src={profile} alt="" />
+          <div className="text">
+            <h1>Freddy Velarde</h1>
+            <h3>Front-End Developer</h3>
+          </div>
         </div>
 
         <div className="menu-nav">
@@ -47,8 +47,12 @@ function Menu() {
         </div>
       </div>
       <div className="icon-menu">
-          <img src={icon} alt="" onClick={openClose}/>
-        </div>
+        {open ? (
+          <img src={icon} alt="" onClick={openClose} />
+        ) : (
+          <img src={iconX} alt="" onClick={openClose} />
+        )}
+      </div>
     </Fragment>
   );
 }
