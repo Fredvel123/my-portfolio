@@ -49,3 +49,6 @@
     background: crimson;
     cursor: pointer;
 }
+.icon-menu img  {
+    display: none;
+}

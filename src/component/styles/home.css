@@ -7,3 +7,53 @@
 .background {
     margin-left: 25%;
 }
+/* --------------  TABLESS ---------------------*/
+@media screen and (max-width: 850px){
+    .background {
+        margin-left: 0;
+    }
+    .menu {
+        background: rgb(37, 37, 37);
+        color: aliceblue;
+        width: 40%;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 30% 55% 15%;   
+        position: fixed;
+        left: 0;
+        top: 0;
+        transition: .5s;
+        transform: translateX(0);
+    }
+    .menu .header {
+        display: flex;
+        justify-content: center;
+    }
+    .menu .menu-nav ul a{
+        display: flex;
+        justify-content: center;
+    }
+    .menu .header img {
+        margin: 3px 0;
+    }
+    .menu .header h1{
+        font-size: 15px;
+    }
+    .menu .header h3{
+        font-size: 10px;
+    }
+
+
+    .menu2 {
+        transition: .1s;
+        transform: translateX(-100%);
+    }
+    /* ---- ICON REPONSIVE ------------- */
+    .icon-menu img  {
+        display: block;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        width: 50px;
+    }
+}

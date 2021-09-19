@@ -1,7 +1,8 @@
 import React, { Fragment } from 'react';
 // import styles css and images.
-import background from './images/bkg.jpg';
+
 import './styles/bkg.css'
+
 
 function BackgroundHome() {
   return (
@@ -16,6 +17,7 @@ function BackgroundHome() {
           </h3>
           <p>Let's started</p>
         </div>
+        
       </div>
     </Fragment>
   );

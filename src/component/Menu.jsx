@@ -1,17 +1,22 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState } from 'react';
 // Import styles css and images.
 import './styles/menu.css';
 import facebook from './icons/facebook.png';
 import github from './icons/github.png';
 import linkedin from './icons/linkedin.png';
 import profile from './images/profile.jpg';
+import icon from './icons/menu.png'
 
 
 function Menu() {
+  const [open, setOpen] = useState(false);
+  const openClose = () => {
+    setOpen(!open);
+  }
   
   return (
     <Fragment>
-      <div className="menu">
+      <div className={open ? "menu2" : "menu"}>
         <div className="header">
             <img src={profile}alt="" />
             <div className="text">
@@ -41,6 +46,9 @@ function Menu() {
           </a>
         </div>
       </div>
+      <div className="icon-menu">
+          <img src={icon} alt="" onClick={openClose}/>
+        </div>
     </Fragment>
   );
 }
