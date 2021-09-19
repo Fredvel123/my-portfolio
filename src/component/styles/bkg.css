@@ -1,0 +1,51 @@
+.banner {
+    background-image: url(../images/bkg3.jpg);
+    
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-info {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
+    height: 100%;
+    text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+.text-info h1 {
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+.text-info h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin: 55px 0;
+}
+.text-info P {
+    background: rgb(6, 61, 163);
+    width: 150px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    transition: .2s;
+}
+.text-info p:hover {
+    background: crimson;
+    cursor: pointer;
+}
