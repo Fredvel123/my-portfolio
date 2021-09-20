@@ -40,9 +40,10 @@
     padding-top: 20px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Source+Sans+Pro:wght@300&display=swap');
+
 .card .text {
-    font-size: 12px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 11px;
+    font-family: 'Nunito Sans', sans-serif;
     padding: 0 10px;
     padding-bottom: 50px;
 }

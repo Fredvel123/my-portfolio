@@ -19,12 +19,12 @@ function About() {
                   Hi There! I am Freddy Velarde Silva. I've been studying web
                   development throught 1 year and I also built several Proyects
                   where I wanted to apply all my knowledge. I created my
-                  portfolio to show my work and my technical skills, thus be
+                  portfolio to show my work and my knowledge, thus be
                   able to work in the Technology Industry.
                 </h2>
               </div>
               <div className="button">
-                <a href="#!" className="button-link">Watch Portfolio</a>
+                <a href="#!" className="button-link">See Portfolio</a>
               </div>
             </div>
           
