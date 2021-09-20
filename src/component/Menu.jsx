@@ -17,7 +17,7 @@ function Menu() {
   
   return (
     <Fragment>
-      <div className={open ? "menu2" : "menu"}>
+      <div className={open ? "menu" : "menu2"}>
         <div className="header">
           <img src={profile} alt="" />
           <div className="text">
@@ -47,7 +47,7 @@ function Menu() {
         </div>
       </div>
       <div className="icon-menu">
-        {open ? (
+        {!open ? (
           <img src={icon} alt="" onClick={openClose} />
         ) : (
           <img src={iconX} alt="" onClick={openClose} />

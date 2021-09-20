@@ -155,7 +155,7 @@
     height: 65%;
 }
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Hind:wght@300&family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
-.menu2 .menu2-nav ul a {
+.menu2 .menu-nav ul a {
     color: #fff;
     list-style: none;
     text-decoration: none;
@@ -167,7 +167,7 @@
     justify-content: flex-end;
     font-family: 'Comfortaa', cursive;
 }
-.menu2 .menu2-nav ul a:hover {
+.menu2 .menu-nav ul a:hover {
     background: rgb(54, 54, 54);
 }
 /* ----- ICONS ------- */
