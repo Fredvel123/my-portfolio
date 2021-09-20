@@ -15,7 +15,7 @@ function BackgroundHome() {
           <h3>
             I work with the most popular and demanded technologies and I am ready to work with you.  
           </h3>
-          <a href="#about">Let's started</a>
+          <a href="#about" className="button-link">Let's started</a>
         </div>
         
       </div>

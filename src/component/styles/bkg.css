@@ -34,7 +34,7 @@
     font-size: 25px;
     margin: 55px 0;
 }
-.text-info a {
+.button-link {
     background: crimson;
     width: 150px;
     height: 65px;
@@ -48,9 +48,9 @@
     font-family: Arial, Helvetica, sans-serif;
     transition: .2s;
 }
-.text-info a:hover {
+.button-link:hover {
     cursor: pointer;
-    background: rgb(14, 147, 236);
+    background: rgb(13, 130, 209);
 }
 .icon-menu img  {
     display: none;
