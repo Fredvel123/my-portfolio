@@ -14,10 +14,15 @@ function Menu() {
   const openClose = () => {
     setOpen(!open);
   }
-  
+  const scrolls = () => {
+    if (open === true) {
+      openClose();
+    }
+  }
+  window.addEventListener("scroll", scrolls)
   return (
     <Fragment>
-      <div className={open ? "menu" : "menu2"}>
+      <div className={open ? "menu" : "menu2"} >
         <div className="header">
           <img src={profile} alt="" />
           <div className="text">
